@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - MCC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="images/logo-mcc.png" alt="Logo MCC" class="logo">
+        <h1>Contactez-nous</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="galerie.html">Galerie</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-container">
+        <div class="contact-box">
+            <h2>Contactez-nous 📩</h2>
+            <p>Besoin d'infos ? Remplissez ce formulaire et nous vous répondrons rapidement !</p>
+            <form action="https://formspree.io/f/myybpjnq" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="Votre email" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
+
+                <button type="submit">Envoyer 🚀</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MCC - Club de Vélo</p>
+    </footer>
+
+</body>
+</html>
