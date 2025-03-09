@@ -23,18 +23,26 @@
 
     <section class="contact-container">
         <div class="contact-box">
-            <h2>Envoyez-nous un message</h2>
-            <p>Besoin d'infos ? Remplissez ce formulaire et nous vous répondrons rapidement !</p>
+            <h2>Contactez-nous 📬</h2>
+            <p>Besoin d'informations ou envie de rejoindre notre club ? Laissez-nous un message !</p>
             <form action="https://formspree.io/f/myybpjnq" method="POST">
                 <div class="input-group">
+                    <label for="nom">Nom</label>
                     <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
                 </div>
 
                 <div class="input-group">
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" placeholder="Votre email" required>
                 </div>
 
                 <div class="input-group">
+                    <label for="sujet">Sujet</label>
+                    <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
                     <textarea id="message" name="message" placeholder="Écrivez votre message ici..." required></textarea>
                 </div>
 
