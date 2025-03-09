@@ -95,3 +95,102 @@ footer {
     margin-top: 20px;
     text-align: center;
 }
+
+/* ACCUEIL */
+.hero {
+    background: url('images/photo1.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 24px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 123, 127, 0.7);
+}
+
+.cta-button {
+    display: inline-block;
+    background: #D32F2F;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background: #007B7F;
+    transform: scale(1.05);
+}
+
+/* ÉVÉNEMENTS */
+.events {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* TÉMOIGNAGES */
+.testimonials {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 20px auto;
+    font-style: italic;
+}
+
+/* CONTACT MODERNE */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: linear-gradient(to right, #D32F2F, #007B7F);
+}
+
+.contact-box {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.input-group textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-box button {
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 16px;
+    background: #D32F2F;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-box button:hover {
+    background: #007B7F;
+    transform: scale(1.05);
+}
